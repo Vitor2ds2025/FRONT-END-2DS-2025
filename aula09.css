@@ -19,25 +19,25 @@ body {
 a {
     position: relative;
     display: inline-block;
-    padding: 25px 50px;
+    padding:25px 50px;
     margin: 40px 0;
-    color: rgb(190, 210, 246);
+    color: rgb(248, 248, 248);
     text-decoration: none;
     text-transform: uppercase;
     transition: 1.0s;
-    letter-spacing: 4px;
+    letter-spacing: 8px;
     overflow: hidden;
     margin-left: 50px;
 }
 
 a:hover {
-    background: #454547;
-    color: rgba(37, 9, 54, 0.564);
-    box-shadow: 0 0 5px #4251bd,
-    0 0 25px #ba04e8,
-    0 0 50px #1f0034,
-    0 0 200px #4c196b;
-    -webkit-box-reflect: below 1px linear-gradient(trasnparent, #5d13a3);
+    background: #6a6a6a;
+    color: rgba(255, 255, 255, 0.564);
+    box-shadow: 0 0 5px #066fb1,
+    0 0 25px #d7f80083,
+    0 0 50px #91ff00,
+    0 0 200px #ffd727;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, #5d13a3);
 }
 
 a:nth-child(1) {
